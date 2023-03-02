@@ -1,0 +1,29 @@
+.ulist{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.olist{
+    font-size: 40px;
+    font-family: monospace;
+    margin-left: 30px;
+}
+.list{
+    font-weight: 400;
+}
+#first{
+    border: 1px solid gold;
+}
+#second{
+    border: 1px solid rgb(0, 26, 255);
+}
+#third{
+    border: 1px solid rgb(255, 0, 34);
+}
+#btn{
+    height: 60px;
+    width: 120px;
+}
+#btn:hover {
+    background-color: rgb(69, 54, 110);
+    color: blue;
+}
