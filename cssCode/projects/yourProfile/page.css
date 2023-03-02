@@ -19,6 +19,8 @@
 h3{
     text-align: center;
 }
-.middle{
-    margin-left: 100px;
+p{
+    text-align: justify;
+    padding-left: 4%;
+    padding-right: 4%;
 }
