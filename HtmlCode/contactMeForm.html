@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <p>I'd really like to hear from you !</p>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>Last Name :</label>
+            <input type="text" placeholder="enter your last name">
+            <br><br>
+            <label>Password :</label>
+            <input type="password" placeholder="your secret">
+            <br><br>
+            <label>Phone :</label>
+            <input type="text" placeholder="5555555555">
+            <br><br>
+            <label>Favorite Decade</label>
+            <input type="number" step="10" min="1900" max="2020">
+            <br><br>
+            <label>Favorite Coffee :</label>
+            <select>
+                <optgroup label="Coffee">
+                    <option>Latte</option>
+                    <option>Cappuccino</option>
+                    <option>Cortado</option>
+                    <option>Americano</option>
+                </optgroup>
+                <option>Other</option>
+            </select>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>What is your favourite food ?</legend>
+            <input type="radio" name="food"> 
+            <label>Tacos</label>
+            <br><br>
+            <input type="radio" name="food"> 
+            <label>Pizza</label>
+            <br><br>
+            <input type="radio" name="food"> 
+            <label>Other</label>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Do you have any pets</legend>
+            <input type="checkbox">
+            <label>Dog</label>
+            <br><br>
+            <input type="checkbox">
+            <label>Cat</label>
+            <br><br>            
+            <input type="checkbox">
+            <label>Fish</label>
+            <br><br>
+            <input type="checkbox">
+            <label>Other</label>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Send Me A Note</legend>
+            <label>Your Message :</label>
+            <br>
+            <textarea placeholder="Type your message here"></textarea>
+        </fieldset>
+        <br> <br>
+        <button type="submit">Submit</button>
+        <button type="menu">Post</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
