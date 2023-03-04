@@ -1,0 +1,61 @@
+#theTable{
+    border: 5px dotted rgb(250, 114, 121);
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+}
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.odd{
+    background-color: lightgray;
+}
+.even{
+    background-color: green;
+}
+
+input::placeholder{
+    color: rgb(0, 255, 55);
+}
+input:required{
+    color: red;
+}
+input{
+    margin-bottom: 50px;
+}
+
+a{
+    display: block;
+}
+li:hover{
+    color: green;
+}
+a:active{
+    color: yellow;
+}
+#lists{
+    margin-bottom: 50px;
+}
+
+.odds{
+    color: green;
+}
+.evens{
+    color: red;
+}
+#sixteenP{
+    color: yellow;
+}
+
+#newdivv{
+    margin-top: 50px;
+}
+#newP{
+    color: red;
+}
+
+span{
+    color: aqua;
+}
