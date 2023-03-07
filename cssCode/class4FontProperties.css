@@ -1,0 +1,22 @@
+#first{
+    font-weight: 100;
+    font-size: smaller;
+}
+
+#second{
+    font-variant: small-caps;
+    font-weight: 100;
+    font-size: smaller;
+}
+
+#third{
+    font-size: 200%;
+    background-color: rgb(172, 54, 74);
+    color: snow;
+    font-stretch: extra-condensed;
+}
+
+#fourth{
+    font-size: 150%;
+    font-stretch: ultra-expanded;
+}
