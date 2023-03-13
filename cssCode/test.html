@@ -4,64 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Box Model</title>
+    <title>Document</title>
     <style>
-        /* #parent{
-            border: 1px solid black;
-            width: 600px;
+        section{
+            border: 2px solid black;
         }
-        .children{
-            width: 180px;
-            height: 100px;
-            border: 1px solid black;
-            margin: 10px;
-        } */
-
-        #flexParent {
-            /* display: flex; */
-            border: 1px solid black;
-            width: 600px;
-            border-bottom: none;
-        }
-
-        .children1 {
-            background-color: rgb(126, 118, 118);
-            width: 180px;
-            height: 100px;
-            border: 1px solid black;
-            margin: 10px;
-            outline: 1px solid black;
+        #div1{
             display: inline-block;
+            height: 200px;
+            width: 37%;
+            margin: 2px;
+            border: 2px solid red;
         }
-        
-        .children2 {
-            background-color: rgb(126, 118, 118);
-            width: 180px;
-            height: 100px;
-            border: 1px solid black;
-            margin: 10px;
-            outline: 1px solid black;
-        }
-        #second{
-            display: flex;
-            border: 1px solid black;
-            width: 600px;
-            border-bottom: none;
+        #div2{
+            display: inline-block;
+            height: 200px;
+            width: 60%;
+            margin: 2px;
+            border: 2px solid red;
         }
     </style>
 </head>
 <body>
-
-    <div id="flexParent" style="margin-top: 20px; border-bottom: 1px solid black;">
-        <div class="children1"></div>
-        <div class="children1"></div>
-        <div class="children1"></div>
-    </div>
-
-    <div id="second" style="margin-top: 20px; border-bottom: 1px solid black;">
-        <div class="children2"></div>
-        <div class="children2"></div>
-        <div class="children2"></div>
-    </div>
+    <section>
+        <div id="div1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quas.
+        </div>
+        <div id="div2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, dignissimos.
+        </div>
+    </section>
 </body>
 </html>
