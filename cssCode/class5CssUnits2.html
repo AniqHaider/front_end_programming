@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+            font-family: Arial;
+            }
+            .box{
+            background-color: dodgerblue;
+            margin-bottom: 10px;
+            }
+            .pixel-units{
+            width: 100px;
+            }
+            .percentage-units{
+            width: 50%;
+            }
+            .parent{
+            width: 150px;
+            border: 2px solid black;
+            padding: 5px;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        <div class="box pixel-units">100px</div>
+        <div class="box percentage-units">50%</div>
+        <div class="parent">
+            <div class="box pixel-units">100px</div>
+            <div class="box percentage-units">50%</div>
+        </div>
+    </body>
+</html>
