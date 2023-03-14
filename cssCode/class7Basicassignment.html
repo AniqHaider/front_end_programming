@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Display</title>
+    <style>
+        #header{
+            border: 1px solid black;
+            border-radius: 2%;
+            background-color: rgb(216, 209, 199);
+            height: 90px;
+            margin-bottom: 5px;
+        }
+        h1{
+            display: inline-block;
+            width: 30%;
+            height: 30px;
+            text-indent: 10px;
+            color: rgb(20, 77, 6);
+            text-decoration-line: underline;
+        }
+        #fimg{
+            position: relative;
+            top: 15px;
+            left: 10px;
+            margin-right: 40px;
+        }
+        #simg{
+            position: fixed;
+            width: 50%;
+            height: 380px;
+        }
+        h3{
+            color: blueviolet;
+        }
+        a{
+            margin-right: 20px;
+        }
+        #mainContent{
+            border: 1px solid black;
+            border-radius: 2%;
+            background-color: antiquewhite;
+            height: 390px;
+            margin-bottom: 5px;
+        }
+        article{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .first{
+            height: 90%;
+            width: 45%;
+            display: inline-block;
+        }
+        #footer{
+            border: 1px solid black;
+            border-radius: 2%;
+            background-color: rgb(236, 231, 224);
+            height: 100px;
+        }
+        button:hover{
+            color: blue;
+            background-color: rgb(17, 121, 139);
+        }
+        button{
+            position: relative;
+            top: 10px;
+            left: 90%;
+            border-radius: 50%;
+            height: 80px;
+            background-color: aqua;
+            color: brown;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="header">
+        <img src="https://cms.primathonacademy.com/uploads/logo_ba21ef699f.png" id="fimg">
+        <h1>Primathon Academy</h1>
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">FAQ</a>
+        <a href="#">Hire From Academy</a>
+        <a href="#">Contact Us</a>
+    </div>
+    <div id="mainContent">
+        <article style="height: 97%; width: 97%;">
+            <div class="first">
+                <h3>Primathon Academy</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<a href="#"> Amet delectus dignissimos </a>adipisci cum possimus, consequatur natus alias quasi nisi recusandae dolor! Officia neque maiores saepe eveniet architecto accusamus. Dicta explicabo, culpa minus eos inventore debitis blanditiis, quisquam fugit commodi facere non? Qui modi reprehenderit explicabo nesciunt libero quisquam minus beatae nostrum debitis totam placeat, animi consectetur excepturi dolorum eaque fugit itaque? Aliquam quae est, illum ut voluptatibus laudantium, omnis, sed animi ipsum fugiat maiores distinctio! Ipsam, esse, obcaecati minima ullam animi sit architecto quis voluptate numquam debitis corporis ad at perferendis incidunt consequuntur nesciunt aspernatur adipisci optio cum? Vel, ipsum. audantium esse minus eaque distinctio et quibusdam nemo ullam aliquid earum iure beatae ipsa, eos deserunt, obcaecati voluptatibus, voluptates nisi quae. Id aspernatur sit autem placeat vero ipsum tempora accusantium sed beatae dignissimos aut, quisquam eaque molestias quaerat sint asperiores, quasi quo corporis praesentium, enim dolore. Quos a assumenda velit similique! Facilis deserunt reiciendis vel blanditiis velit doloribus earum quisquam nihil minus quia.</p>
+            </div>
+            <div class="first">
+                <img src="https://cms.primathonacademy.com/uploads/education_Avatar_2daa9fbc97.png" alt="lion image" id="simg">
+            </div>
+        </article>
+    </div>
+    <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fugiat recusandae alias? Facilis quidem ratione blanditiis, praesentium corrupti ad voluptas officiis accusamus fuga, aliquam molestias hic, totam adipisci distinctio suscipit?</p></div>
+    <div id="footer">
+        <button onclick="topFunction()">Back to Top</button>
+    </div>
+    <script>
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
