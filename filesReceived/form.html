@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="https://www.google.com/search" method="get" id="signup">
+        <h1>Sign Up</h1>
+        <div class="field">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="q" placeholder="Enter your fullname" />
+          <small></small>
+        </div>
+        <!-- <div class="field">
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" placeholder="Enter your email address" />
+          <small></small>
+        </div> -->
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <script>
+      const form = document.getElementById('signup');
+
+      console.log('1 ', form);
+
+      console.log('2 ', form.elements);
+
+      // by index form.elements['name'];
+      console.log('2 ', form.elements[0]);
+      // by name
+      console.log('2 ', form.elements['hello']); // by id (name & id are the same in this case)
+
+      // form.elements[1]; // by index
+      // form.elements['email']; //  by name
+      // form.elements['email']; // by id
+
+      // const name = form.elements['name'];
+      // const email = form.elements['email'];
+      // // getting the element's value
+      // let fullName = name.value;
+      // let emailAddress = email.value;
+    </script>
+  </body>
+</html>

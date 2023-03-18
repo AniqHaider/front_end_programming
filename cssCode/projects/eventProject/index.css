@@ -1,0 +1,85 @@
+body{
+    background-image: url(event.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#leftDiv{
+    display: inline-block;
+    width: 43%;
+    height: 230px;
+    margin-left: 2%;
+    background-color: black;
+    opacity: 0.3;
+    /* position: relative;
+    top: -330px; */
+    margin-bottom: 333px;
+}
+
+#rightDiv{
+    display: inline-block;
+    width: 51%;
+    height: 585px;
+    background-color: black;
+    opacity: 0.3;
+    margin-left: 20px;
+    /* position: relative;
+    left: 20px; */
+}
+
+#firstSpan{
+    position: absolute;
+    right: 1px;
+    top: 20px;
+    left: 45px;
+    /* top: 400px;
+    bottom: 400px; */
+    display: inline-block;
+    width: 560px;
+    height: 180px;
+}
+
+#firstDiv{
+    display: inline-block;
+    height: 300px;
+    width: 45%;
+    position: absolute;
+    left: 700px;
+    top: 40px;
+}
+
+h2{
+    display: inline-block;
+    height: 120px;
+    width: 70px;
+    position: relative;
+    bottom: 53px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+.pchild{
+    display: inline-block;
+    height: 120px;
+    width: 450px;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+a{
+    border: 1px solid black;
+    padding: 6px;
+    text-decoration: none;
+}
+#span1{
+    position: relative;
+    bottom: -50px;
+}
+#span2{
+    position: relative;
+    bottom: 23px;
+}
+#span3{
+    position: relative;
+    bottom: 99px;
+}
