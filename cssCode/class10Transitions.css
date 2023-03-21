@@ -1,0 +1,24 @@
+.container{
+    border: 1px solid grey;
+    height: 400px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.box{
+    background-color: yellow;
+    border-radius: 30px;
+    height: 300px;
+    width: 25%;
+    transition-duration: 5s;
+    transition-delay: 1s;
+    transition-property: all;
+}
+
+.box:hover{
+    background-color: green;
+    margin-left: 75%;
+    height: 200px;
+    width: 20%;
+}
