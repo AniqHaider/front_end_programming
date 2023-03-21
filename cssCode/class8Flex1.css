@@ -1,0 +1,42 @@
+.container{
+    background-color: rgb(83, 230, 181);
+    padding: 17px , 12px ;
+    display: flex;
+    column-gap: 20px;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+}
+ol li{
+    display: block;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+ol li:hover{
+    background-color: rgb(18, 121, 121);
+}
+
+a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+
+
+@media all and (max-width: 600px) {
+    .container {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .container li { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .container li:last-of-type a {
+      border-bottom: none;
+    }
+  }

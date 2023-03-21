@@ -4,82 +4,97 @@ body{
     background-size: cover;
 }
 
-#leftDiv{
-    display: inline-block;
-    width: 43%;
-    height: 230px;
-    margin-left: 2%;
-    background-color: black;
-    opacity: 0.3;
-    /* position: relative;
-    top: -330px; */
-    margin-bottom: 333px;
+#section1{
+    display: flex;
+    column-gap: 25px;
+    width: 100%;
+    height: 100%;
 }
 
-#rightDiv{
-    display: inline-block;
-    width: 51%;
-    height: 585px;
-    background-color: black;
-    opacity: 0.3;
-    margin-left: 20px;
-    /* position: relative;
-    left: 20px; */
+#section2{
+    background-color: rgba(8, 8, 8, 0.6);
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    margin-top: 2%;
 }
 
-#firstSpan{
-    position: absolute;
-    right: 1px;
-    top: 20px;
-    left: 45px;
-    /* top: 400px;
-    bottom: 400px; */
-    display: inline-block;
-    width: 560px;
-    height: 180px;
+#section2:hover{
+    background-color: rgb(204, 68, 91);
 }
 
-#firstDiv{
-    display: inline-block;
-    height: 300px;
-    width: 45%;
-    position: absolute;
-    left: 700px;
-    top: 40px;
+#section3{
+    background-color: rgba(8, 8, 8, 0.6);
+    display: flex;
+    flex-direction: column;
+    height: 590px;
+    justify-content: center;
+}
+
+
+.pchild{
+    background-color: white;
+    color: rgb(22, 20, 20);
+    margin-left: 10px;
 }
 
 h2{
-    display: inline-block;
-    height: 120px;
-    width: 70px;
-    position: relative;
-    bottom: 53px;
-    background-color: #000000;
-    color: white;
+    width: 70%;
+    background-color: rgb(15, 14, 15);
+    height: 100%;
+    margin-top: -1px;
     text-align: center;
+    color: white;
 }
-.pchild{
-    display: inline-block;
-    height: 120px;
-    width: 450px;
-    position: relative;
-    background-color: whitesmoke;
+
+.pdiv{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.childdiv{
+    margin-bottom: 15px;
+    width: 95%;
+    margin-left: 2%;
+}
+
+h1{
+    text-align: left;
+    color: white;
+    padding-left: 10px;
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+#firstP{
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 a{
-    border: 1px solid black;
-    padding: 6px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: white;
+    width: 18%;
+    padding-top: 2px;
     text-decoration: none;
+    margin-left: 10px;
+    margin-bottom: 4px;
 }
-#span1{
-    position: relative;
-    bottom: -50px;
+
+.section2:hover {
+    background-color: pink;
 }
-#span2{
-    position: relative;
-    bottom: 23px;
+
+h2:hover{
+    background-color: rgb(204, 68, 91);
 }
-#span3{
-    position: relative;
-    bottom: 99px;
+
+a:hover{
+    background-color: rgb(68, 161, 204);
+    text-decoration: underline;
 }
