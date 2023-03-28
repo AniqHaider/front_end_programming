@@ -84,3 +84,10 @@ sum(k, z)
     // console.log(newNew)
     // it wont work because const is locally scoped
 }
+
+
+// valid names = _aniq ; $aniq ; _aniq123 ; aniq123 
+
+// not invalid but not gernally used and advised not to -- $$aniq
+
+// invalid names = 123aniq ; _ _aniq ; aniq--- ; an;iq ; 1$aniq 
