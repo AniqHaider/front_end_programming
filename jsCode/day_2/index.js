@@ -1,3 +1,5 @@
+// statement declaration assigment block
+
 var theNumber = 1;
 console.group(theNumber);
 

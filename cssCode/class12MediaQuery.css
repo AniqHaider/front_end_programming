@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#parent{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.child{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+h1, h3 , p{
+    text-align: center;
+}
+
+header{
+    background-color: red;
+}
+
+p{
+    background-color: lightblue;
+    width: 70%;
+}
+h3{
+    width: 15%;
+}
+
+#aside1{
+    background-color: yellow;
+}
+#aside2{
+    background-color: rgb(223, 93, 115);
+}
+footer{
+    background-color: rgb(78, 189, 78);
+}
+
+@media all and (max-width: 1040px) {
+    .child{
+        flex-direction: column-reverse;
+        flex-grow: 1;
+    }
+    h3{
+        width: 100%;
+    }
+    p{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 764px) {
+    .child{
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    h3{
+        width: 100%;
+    }
+    p{
+        width: 100%;
+    }
+}
