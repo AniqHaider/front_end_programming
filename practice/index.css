@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainContainer{
+    background-color:rgba(145, 144, 140, 0.9);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 50%;
+    width: 30%; */
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+div p{
+    max-width: 300px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
